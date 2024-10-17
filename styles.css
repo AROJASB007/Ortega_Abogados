@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #e0e0e0;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.areas-practica {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.areas-practica h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.practica-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.practica {
+    width: 30%;
+    text-align: center;
+}
+
+.practica img {
+    width: 100%;
+    height: auto;
+}
+
+.practica h3 {
+    margin-top: 15px;
+}
+
+.principios {
+    background-color: #f4f4f4;
+    padding: 40px 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+.informativo {
+    padding: 50px 20px;
+}
+
+.informativo h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.informativo-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-item {
+    width: 30%;
+    text-align: center;
+}
+
+.info-item img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 5px 0;
+}
